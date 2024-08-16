@@ -3,6 +3,7 @@ import bg from "../../public/background/about-scripted.jpg"
 import { RenderModel } from "@/components/RenderModel";
 import Logo from "@/components/models/Logo";
 import { Navigation } from "@/components/navigation";
+import Wizard from "@/components/models/Wizard";
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       
       <Navigation />
       <RenderModel>
-        <Logo />
+        <Wizard />
       </RenderModel>
 
     </div>
