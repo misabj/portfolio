@@ -40,11 +40,11 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={'col-span-4 !p-0'}>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=misabj&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="Scripted" loading="lazy" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=scripted-bgd&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="Scripted" loading="lazy" />
         </ItemLayout>
 
         <ItemLayout className={'col-span-8 !p-0'}>
-            <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=misabj&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="Scripted" loading="lazy" />
+            <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=scripted-bgd&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="Scripted" loading="lazy" />
         </ItemLayout>
 
         <ItemLayout className={'col-span-full'}>
