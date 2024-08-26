@@ -22,7 +22,7 @@ export default function Logo(props) {
         material={materials.Gold}
         position={[0, 1.600, 0]}
         rotation={[1.569, 0.005, 0]}
-        scale={[1.8, 0.4, 0.5]}
+        scale={[2.001, 0.4, 0.5]}
       />
     </group>
   );
