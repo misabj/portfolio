@@ -1,9 +1,11 @@
+
 import Image from "next/image";
 import bg from "../../public/background/about-scripted.jpg"
 import { RenderModel } from "@/components/RenderModel";
-import Logo from "@/components/models/Logo";
 import { Navigation } from "@/components/navigation";
-import Wizard from "@/components/models/Wizard";
+import { Laptop } from "@/components/models/Laptop";
+
+
 
 
 export default function Home() {
@@ -14,12 +16,14 @@ export default function Home() {
     <div className="w-full h-screen">
       {/* navigation and 3D model*/}
       
-      <Navigation />
-      <RenderModel>
-        <Wizard />
-      </RenderModel>
-
+     
+      <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 bg-opacity-15">
+          <RenderModel>
+            <Laptop />
+          </RenderModel>
+      </div>
     </div>
+    <Navigation />
 
     </main>
   );

@@ -20,9 +20,9 @@ export default function Wizard(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      position={[0, -1.5, 0]}
-      scale={[0.06, 0.06, 0.06]}
-      rotation={[0.25,0,0]}
+      position={[0.5, 0, 0]}
+      scale={[0.05, 0.05, 0.05]}
+      rotation={[0.20,0,0]}
     >
       <mesh
         castShadow

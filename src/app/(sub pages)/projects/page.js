@@ -3,7 +3,9 @@ import bg from "../../../../public/background/projects-scripted.jpeg"
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import { RenderModel } from "@/components/RenderModel";
-import Scroll from "@/components/models/Scroll";
+
+
+import Wizard from "@/components/models/Wizard";
 
 
 
@@ -14,9 +16,9 @@ export default function Home() {
 
     <ProjectList projects={projectsData} />
 
-    <div className="flex items-center justify-center fixed top-20 -left-1 h-screen">
+    <div className="flex items-center justify-center fixed top-20 lg:top-20 left-1/2 lg:-left-12 -translate-x-1/2 lg:translate-x-0 -z-10 h-screen ">
       <RenderModel>
-        <Scroll />
+        <Wizard />
       </RenderModel>
     </div>
     </>
