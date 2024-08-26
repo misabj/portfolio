@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       
-      <div className="relative w-full h-3/5 xs:h-3/4 h-screen  top-1/3 flex flex-col items-center justify-center">
+      <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <RenderModel>
           <Logo />
         </RenderModel>
