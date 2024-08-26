@@ -19,47 +19,47 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
+    name: "YES Group",
     description: "Track your carbon footprint",
     date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    demoLink: "https://yourrealemploymentsolution.com/",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
+    name: "Aventis Studio",
     description: "Digital art showcase platform",
     date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    demoLink: "https://studioaventis.rs/",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
+    name: "4U Pharma",
     description: "Plan and track expenses",
     date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    demoLink: "https://www.4upharma.com/sr/",
   },
   {
     id: 4,
-    name: "HealthBeat",
+    name: "Balkan Energy",
     description: "Monitor heart rate zones",
     date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    demoLink: "https://www.balkanenergy.com/",
   },
   {
     id: 5,
-    name: "RecipeFinder",
+    name: "Danijela Popovic",
     description: "Discover new recipes",
     date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    demoLink: "https://www.gro.jsm.mybluehost.me/",
   },
   {
     id: 6,
-    name: "JourneyLogger",
+    name: "MN Photography",
     description: "Log your travels",
     date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    demoLink: "https://nikolicmilos.rs/",
   },
-  {
+ /* {
     id: 7,
     name: "StudyBuddy",
     description: "Collaborative learning platform",
@@ -87,6 +87,7 @@ export const projectsData = [
     date: "2022-02-14",
     demoLink: "https://mindfulmoments.example.com",
   },
+  */
 ];
 
 export const BtnList = [
