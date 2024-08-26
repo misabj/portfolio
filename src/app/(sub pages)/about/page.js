@@ -14,21 +14,18 @@ export default function Home() {
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25"
       />
 
-      <div className="w-full h-screen relative top-1/2 left-0">
+      <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0">
         <RenderModel>
           <HatModel />
         </RenderModel>
-          <div className="w-full  absolute top-1/3 h-screen -translate-y-1/4 flex flex-col justify-center ">
-          <RenderModel>
-            <Logo />
-          </RenderModel>
-          </div>
       </div>
 
       
-      
-        
-      
+      <div className="relative w-full  h-screen sm:w-100 flex flex-col items-center justify-center">
+        <RenderModel>
+          <Logo />
+        </RenderModel>
+      </div>
       
 
 
