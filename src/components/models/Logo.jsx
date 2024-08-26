@@ -20,9 +20,9 @@ export default function Logo(props) {
         receiveShadow
         geometry={nodes.Plane001.geometry}
         material={materials.Gold}
-        position={[0.031, 1.600, 0.114]}
+        position={[0, 1.600, 0]}
         rotation={[1.569, 0.005, 0]}
-        scale={[2.4, 0.1, 0.50]}
+        scale={[1.8, 0.4, 0.5]}
       />
     </group>
   );
