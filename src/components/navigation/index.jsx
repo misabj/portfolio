@@ -7,12 +7,12 @@ import ResponsiveComponent from "../ResponsiveComponent";
 import { motion } from "framer-motion";
 
 const container = {
-  hidden: {opacity: 0},
+  hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: {staggerChildren: 0.3},
-  }
-}
+    transition: { staggerChildren: 0.3 },
+  },
+};
 
 export const Navigation = () => {
   const angleIncrement = 360 / BtnList.length;
@@ -26,15 +26,12 @@ export const Navigation = () => {
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
-            <motion.div 
-            
-            variants={container}
-            initial="hidden"
-            animate="show"
-          
-            
-            
-            className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group">
+            <motion.div
+              variants={container}
+              initial="hidden"
+              animate="show"
+              className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group"
+            >
               {BtnList.map((btn, index) => {
                 const angleRad = (index * angleIncrement * Math.PI) / 180;
                 const radius = isLarge
@@ -51,29 +48,37 @@ export const Navigation = () => {
             </motion.div>
           ) : (
             <>
-            <motion.div 
-            
-            variants={container}
-            initial="hidden"
-            animate="show" className="w-full px-2.5 xs:p-0 xs:w-max space-y-4 flex flex-col  items-start xs:items:center justify-center relative  group">
-              {BtnList.slice(0, BtnList.length/2).map((btn, index) => {
-                
+              <motion.div
+                variants={container}
+                initial="hidden"
+                animate="show"
+                className="w-full px-2.5 xs:p-0 xs:w-max space-y-4 flex flex-col  items-start xs:items:center justify-center relative  group"
+              >
+                {BtnList.slice(0, BtnList.length / 2).map((btn, index) => {
+                  return <NavButton key={btn.label} x={0} y={0} {...btn} />;
+                })}
+              </motion.div>
 
-                return <NavButton key={btn.label} x={0} y={0} {...btn} />;
-              })}
-            </motion.div>
-
-            <motion.div 
-            
-            variants={container}
-            initial="hidden"
-            animate="show" className="w-full px-2.5 xs:p-0 xs:w-max space-y-4 flex flex-col  items-end xs:items:center justify-center relative  group">
-              {BtnList.slice(BtnList.length/2, BtnList.length).map((btn, index) => {
-                
-
-                return <NavButton key={btn.label} x={0} y={0} {...btn} labelDirection="left"/>;
-              })}
-            </motion.div>
+              <motion.div
+                variants={container}
+                initial="hidden"
+                animate="show"
+                className="w-full px-2.5 xs:p-0 xs:w-max space-y-4 flex flex-col  items-end xs:items:center justify-center relative  group"
+              >
+                {BtnList.slice(BtnList.length / 2, BtnList.length).map(
+                  (btn, index) => {
+                    return (
+                      <NavButton
+                        key={btn.label}
+                        x={0}
+                        y={0}
+                        {...btn}
+                        labelDirection="left"
+                      />
+                    );
+                  }
+                )}
+              </motion.div>
             </>
           );
         }}

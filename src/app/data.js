@@ -21,73 +21,44 @@ export const projectsData = [
     id: 1,
     name: "YES Group",
     description: "Track your carbon footprint",
-    date: "2022-08-15",
+    date: "2020-08-15",
     demoLink: "https://yourrealemploymentsolution.com/",
   },
   {
     id: 2,
     name: "Aventis Studio",
     description: "Digital art showcase platform",
-    date: "2022-06-20",
+    date: "2023-06-20",
     demoLink: "https://studioaventis.rs/",
   },
   {
     id: 3,
     name: "4U Pharma",
     description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://www.4upharma.com/sr/",
+    date: "2024-09-10",
+    demoLink: "https://www.4upharma.com/",
   },
   {
     id: 4,
     name: "Balkan Energy",
     description: "Monitor heart rate zones",
-    date: "2022-05-30",
+    date: "2021-05-30",
     demoLink: "https://www.balkanenergy.com/",
   },
   {
     id: 5,
     name: "Danijela Popovic",
     description: "Discover new recipes",
-    date: "2022-07-12",
+    date: "2023-07-12",
     demoLink: "https://www.gro.jsm.mybluehost.me/",
   },
   {
     id: 6,
-    name: "MN Photography",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://nikolicmilos.rs/",
+    name: "Miloš Nikolić",
+    description: "My personal portfolio website",
+    date: "2025-04-17",
+    demoLink: "https://nikolicmilos.com/",
   },
- /* {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-  },
-  */
 ];
 
 export const BtnList = [
@@ -97,28 +68,26 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://github.com/scripted-bgd",
+    link: "https://github.com/misabj",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/company/scripted-software-development/",
+    link: "https://www.linkedin.com/in/milos-nikolic-b1164153/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "Instagram",
-    link: "https://www.instagram.com/scriptedsoftware/",
+    link: "https://www.instagram.com/milos_nikoliic/",
     icon: "instagram",
     newTab: true,
   },
   {
     label: "Facebook",
-    link: "https://www.facebook.com/scriptedsoftwaredevelopment",
+    link: "https://www.facebook.com/milos.nikolic.39",
     icon: "facebook",
     newTab: true,
-  }
+  },
 ];
-
-
