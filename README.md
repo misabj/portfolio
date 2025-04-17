@@ -1,1 +1,1 @@
-Wizards in action!!!
+Wizard in action!!!
