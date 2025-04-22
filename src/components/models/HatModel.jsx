@@ -20,7 +20,7 @@ export default function HatModel(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      scale={[1.4, 1.4, 1.4]}
+      scale={[1.3, 1.3, 1.3]}
       rotation={[0.4, -0.5,0]}
       position={[0, 0.5, 0]}
     >
