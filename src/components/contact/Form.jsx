@@ -62,7 +62,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "Milos",
+      to_name: "Miloš",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,
