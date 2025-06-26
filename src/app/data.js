@@ -19,39 +19,39 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Serbian fans - Džentlmeni",
+    name: "Serbian fans",
     description: "Serbian national team supporters",
     date: "2020-08-15",
     demoLink: "https://serbianfans.org/",
   },
-  {
+   {
     id: 2,
-    name: "Baptistička crkva Beograd",
-    description: "Zajednica ljudi koji veruju u ljubav, milosrđe i snagu molitve",
-    date: "2023-06-20",
-    demoLink: "https://sajt-dun.vercel.app/",
-  },
-  {
-    id: 3,
     name: "4U Pharma",
     description: "Proizvodi za decu, bebe i trudnice",
     date: "2024-09-10",
     demoLink: "https://www.4upharma.com/",
   },
   {
-    id: 4,
+    id: 3,
     name: "Balkan Energy",
     description: "Energy trading forecasting service",
     date: "2021-05-30",
     demoLink: "https://www.balkanenergy.com/",
   },
   {
-    id: 5,
+    id: 4,
     name: "Scripted",
     description: "Delivering business solutions for the web and mobile world",
     date: "2023-07-12",
     demoLink: "https://scripted.rs/",
   },
+  {
+    id: 5,
+    name: "Baptistička crkva",
+    description: "Zajednica ljudi koji veruju u ljubav i snagu molitve",
+    date: "2023-06-20",
+    demoLink: "https://sajt-dun.vercel.app/",
+  },  
   {
     id: 6,
     name: "Miloš Nikolić",
