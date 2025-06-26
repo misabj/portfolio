@@ -27,7 +27,7 @@ export const projectsData = [
    {
     id: 2,
     name: "4U Pharma",
-    description: "Proizvodi za decu, bebe i trudnice",
+    description: "Products for babies, childred and pregnant woman",
     date: "2024-09-10",
     demoLink: "https://www.4upharma.com/",
   },
@@ -47,14 +47,14 @@ export const projectsData = [
   },
   {
     id: 5,
-    name: "Baptistička crkva",
-    description: "Zajednica ljudi koji veruju u ljubav i snagu molitve",
+    name: "Baptist church",
+    description: "A community of people who believe in the strength of love and prayer.",
     date: "2023-06-20",
     demoLink: "https://sajt-dun.vercel.app/",
   },  
   {
     id: 6,
-    name: "Miloš Nikolić",
+    name: "Portfolio - Milos Nikolic",
     description: "My personal portfolio website",
     date: "2025-04-17",
     demoLink: "https://nikolicmilos.com/",
