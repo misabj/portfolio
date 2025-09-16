@@ -19,16 +19,16 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Serbian fans",
-    description: "Serbian national team supporters",
-    date: "2020-08-15",
-    demoLink: "https://serbianfans.org/",
+    name: "Operation Christmas Child",
+    description: "Together, we spread the joy of Christmas through gift boxes.",
+    date: "2020-01-11",
+    demoLink: "https://operacijabozicnodete.com/",
   },
    {
     id: 2,
     name: "4U Pharma",
     description: "Products for babies, childred and pregnant woman",
-    date: "2024-09-10",
+    date: "2020-09-10",
     demoLink: "https://www.4upharma.com/",
   },
   {
@@ -40,24 +40,17 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Scripted",
-    description: "Delivering business solutions for the web and mobile world",
-    date: "2023-07-12",
-    demoLink: "https://scripted.rs/",
-  },
-  {
-    id: 5,
     name: "Baptist church",
     description: "A community of people who believe in the strength of love and prayer.",
     date: "2023-06-20",
-    demoLink: "https://sajt-dun.vercel.app/",
+    demoLink: "https://baptistickacrkva.rs/",
   },  
   {
-    id: 6,
-    name: "Portfolio - Milos Nikolic",
-    description: "My personal portfolio website",
-    date: "2025-04-17",
-    demoLink: "https://nikolicmilos.com/",
+    id: 5,
+    name: "Serbian fans",
+    description: "Serbian national team supporters",
+    date: "2024-08-15",
+    demoLink: "https://serbianfans.org/",
   },
 ];
 
