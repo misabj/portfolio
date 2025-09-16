@@ -19,7 +19,7 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Operation Christmas Child",
+    name: "OCC",
     description: "Together, we spread the joy of Christmas through gift boxes.",
     date: "2020-01-11",
     demoLink: "https://operacijabozicnodete.com/",
