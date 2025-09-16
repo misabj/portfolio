@@ -26,10 +26,10 @@ export const projectsData = [
   },
    {
     id: 2,
-    name: "4U Pharma",
-    description: "Products for babies, childred and pregnant woman",
+    name: "CROB",
+    description: "Central Register of Food Business Establishments",
     date: "2020-09-10",
-    demoLink: "https://www.4upharma.com/",
+    demoLink: "https://registarobjekata.minpolj.gov.rs/",
   },
   {
     id: 3,
@@ -51,6 +51,13 @@ export const projectsData = [
     description: "Serbian national team supporters",
     date: "2024-08-15",
     demoLink: "https://serbianfans.org/",
+  },
+  {
+    id: 6,
+    name: "4U Pharma",
+    description: "Products for babies, childred and pregnant woman",
+    date: "2025-09-10",
+    demoLink: "https://www.4upharma.com/",
   },
 ];
 
