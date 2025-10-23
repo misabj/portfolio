@@ -40,10 +40,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Baptist church",
-    description: "A community of people who believe in the strength of love and prayer.",
+    name: "Realestate",
+    description: "Discover the perfect place to call home.",
     date: "2023-06-20",
-    demoLink: "https://baptistickacrkva.rs/",
+    demoLink: "https://pcn.rs/",
   },  
   {
     id: 5,
