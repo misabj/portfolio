@@ -14,7 +14,7 @@ const AboutDetails = () => {
             About Me
           </h2>
           <p className="font-light text-left text-xs sm:text-sm md:text-base">
-            I’m a front-end developer passionate about building sleek, intuitive
+            I’m a full stack developer passionate about building sleek, intuitive
             interfaces. I bring ideas to life—pixel by pixel, component by
             component. Driven by clean architecture and a passion for detail, I
             transform static designs into dynamic, interactive realities. With
