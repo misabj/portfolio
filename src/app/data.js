@@ -21,7 +21,7 @@ export const projectsData = [
     id: 1,
     name: "Smash burger",
     description: "Modern Next.js website with smooth animations, and a delicious fast-food vibe.",
-    date: "2020-01-11",
+    date: "2026-03-18",
     demoLink: "https://smashburger.pcn.rs/",
   },
    {
