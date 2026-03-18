@@ -19,10 +19,10 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "OCC",
-    description: "Together, we spread the joy of Christmas through gift boxes.",
+    name: "Smash burger",
+    description: "Modern Next.js website with smooth animations, and a delicious fast-food vibe.",
     date: "2020-01-11",
-    demoLink: "https://operacijabozicnodete.com/",
+    demoLink: "https://smashburger.pcn.rs/",
   },
    {
     id: 2,
