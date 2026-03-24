@@ -33,10 +33,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Balkan Energy",
-    description: "Energy trading forecasting service",
-    date: "2021-05-30",
-    demoLink: "https://www.balkanenergy.com/",
+    name: "DotConnection",
+    description: "Connecting employers from around the world",
+    date: "2026-03-24",
+    demoLink: "https://dotconnection.pcn.rs/",
   },
   {
     id: 4,
