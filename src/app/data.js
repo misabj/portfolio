@@ -54,10 +54,10 @@ export const projectsData = [
   },
   {
     id: 6,
-    name: "4U Pharma",
-    description: "Products for babies, childred and pregnant woman",
-    date: "2025-09-10",
-    demoLink: "https://www.4upharma.com/",
+    name: "Zamah media",
+    description: "We build a meaningful online presence for brands",
+    date: "2026-04-01",
+    demoLink: "https://zamah.pcn.rs/",
   },
 ];
 
